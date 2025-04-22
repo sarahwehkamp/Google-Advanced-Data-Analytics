@@ -7,17 +7,14 @@ This repository contains all course-related activities, datasets, and final proj
 
 ## 📂 Repository Structure
 
-- **`course_activities/`**  
-  Jupyter Notebooks and scripts used for practicing concepts and completing assignments.
-
 - **`data/`**  
-  Datasets used throughout the specialization.
+  Dataset used for Capstone Project.
 
 - **`projects/`**  
-  Includes three end-of-course projects and one final capstone project.
+  Includes the final capstone project.
 
-- **`reference_materials/`**  
-  Helpful resources such as career guides, interview tips, open data sources, and more.
+- **`README.md`**  
+  Project overview, folder structure, and key information about the repository.
 
 ---
 
