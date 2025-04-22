@@ -1,0 +1,81 @@
+# 📊 Projects/Capstone: Salifort Motors Workforce Analysis
+
+## 🏢 Background
+
+### About the Company
+
+**Salifort Motors** is a fictional, France-based alternative energy vehicle manufacturer. With a global workforce of over **100,000 employees**, Salifort focuses on the research, design, construction, validation, and distribution of electric, solar, algae, and hydrogen-powered vehicles.  
+Its fully integrated, end-to-end business model has positioned Salifort as a global leader at the intersection of alternative energy and the automotive industry.
+
+---
+
+## 💼 Business Case
+
+As a data specialist at Salifort Motors, you've received results from a recent **employee survey**. The **senior leadership team** is seeking insights into **employee retention** and has tasked you with:
+
+- Analyzing the survey and workforce data.
+- Identifying factors contributing to employee turnover.
+- Designing a **predictive model** to forecast whether an employee is likely to leave the company.
+
+You're encouraged to use a **regression** or **tree-based machine learning model**—both were covered in the specialization coursework, but only one is required for this project.
+
+---
+
+## 🎯 Project Deliverables
+
+### 🔍 Insights & Recommendations
+
+- **Refine Workload Management**  
+  Employees with **excessive monthly hours** show higher turnover rates. Implement a system to **balance workloads** across departments.
+
+- **Foster Professional Growth**  
+  Lack of promotions is a strong predictor of turnover. Establish clear **career advancement pathways**.
+
+- **Boost Job Satisfaction & Performance**  
+  Initiate programs to enhance job satisfaction and address performance issues. Decision trees and ensemble models (RF, XGB) highlight this as a key concern.
+
+- **Project Allocation Scrutiny**  
+  Monitor and optimize the number of **projects assigned** to employees. A high project load correlates with higher turnover.
+
+---
+
+### 📈 Predictive Modeling
+
+- Utilized tree-based models:
+  - **Decision Tree (DT)**
+  - **Random Forest (RF)**
+  - **XGBoost (XGB)**
+
+These models revealed that high **monthly hours**, **lack of promotion**, and **low job satisfaction** are the top predictors of employee turnover.
+
+---
+
+## 🔬 Clustering Insights (K-Means)
+
+### 🟢 Green Cluster
+- Balanced in performance and hours but **low satisfaction**.
+- **Action:** Improve recognition and offer professional development.
+
+### 🌸 Pink Cluster
+- High hours and high performance, but **low satisfaction**.
+- **Action:** Reduce workload, introduce flexibility, and offer support to avoid burnout.
+
+### 🔵 Blue Cluster
+- Wide performance range, **high hours**, varied satisfaction.
+- **Action:** Optimize task allocation and provide **time management training**.
+
+### 🟡 Gold Cluster
+- High performance, moderate hours, mixed satisfaction.
+- **Action:** Offer **advancement opportunities** and recognize achievements.
+
+---
+
+## 🧠 Conclusion
+
+- The **Decision Tree** model provided foundational insights.
+- The **Random Forest** and **XGBoost** models gave a more nuanced view of turnover risk factors.
+- Combining insights from these models supports a **multi-faceted retention strategy** focused on:
+  - Workload balance
+  - Career development
+  - Job satisfaction
+  - Efficient task distribution
